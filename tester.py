@@ -1,4 +1,8 @@
 # Lab11 tester file
+import sys
+sys.path.append(".")
+
+
 from geo.utils import add
 
 def main():
