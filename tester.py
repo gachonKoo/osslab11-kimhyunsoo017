@@ -1,14 +1,12 @@
-# Lab11 tester file
-import sys
-sys.path.append(".")
-
-
-from geo.utils import add
+from geo.utils import circle_circumference, circle_area
 
 def main():
-    print("Package import success!")
-    print("add(2, 3) =", add(2, 3))
+    r = 5
+    c = circle_circumference(r)
+    area = circle_area(r)
+
+    print(f"c = {c}")
+    print(f"area = {area}")
 
 if __name__ == "__main__":
     main()
-
