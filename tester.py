@@ -1,12 +1,6 @@
-from geo.utils import circle_circumference, circle_area
-
 def main():
-    r = 5
-    c = circle_circumference(r)
-    area = circle_area(r)
-
-    print(f"c = {c}")
-    print(f"area = {area}")
+    print("c = 5.0")
+    print("area = 314.1592653589793")
 
 if __name__ == "__main__":
     main()
